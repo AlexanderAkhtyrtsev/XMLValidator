@@ -1,13 +1,15 @@
 #pragma once
+
 #include "xmlelement.h"
 
 
 class XMLDocument
 {
-    std::ifstream fileStream;
+private:
+    ifstream fileStream;
 public:
-    XMLDocument(std::string file);
+    XMLDocument(string file);
     ~XMLDocument();
-    void validate();
+    int validate();
 };
 
