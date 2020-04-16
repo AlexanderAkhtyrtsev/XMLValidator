@@ -39,7 +39,6 @@ class XMLProlog : public BasicXMLElement
 {
 public:
     XMLProlog();
-    ~XMLProlog();
     ReturnValue read(ifstream &in);
 };
 

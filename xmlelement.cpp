@@ -110,7 +110,6 @@ BasicXMLElement::ReturnValue BasicXMLElement::readAttribute(ifstream &in,
 
 XMLProlog::XMLProlog() {}
 
-XMLProlog::~XMLProlog() {}
 
 XMLProlog::ReturnValue XMLProlog::read(ifstream &in) {
 
