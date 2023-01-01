@@ -1,7 +1,7 @@
 # XMLValidator
-Test task for an interview
+Test task for an interview.
 
-Requirements for the task:
+**Requirements for the task:**
 
 A program should be able to validate any XML file structure according to the following rules:
 
